@@ -1,23 +1,28 @@
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './css/App.css';
+import SearchResults from './components/SearchResults';
+
+
+const jsMockup = [{id: 1, name:"Popotito", artist: "Jose y los magnificos", album: "Popotito love" }, {id: 2, name:"Freaks go home",artist: "Darkside", album: "Soundscape"}];
+
 
 function App() {
+  const [searchResults, setSearchResults] = useState([jsMockup]);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Jammming App jj
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <SearchResults tracklist={searchResults} />
+
+
       </header>
+
+  
     </div>
   );
 }

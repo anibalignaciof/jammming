@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name":"Popotito",
+        "artist": "Jose y los magnificos",
+        "album": "Popotito love"
+    },
+    {
+        "id": 2,
+        "name":"Freaks go home",
+        "artist": "Darkside",
+        "album": "Soundscape"
+    },
+    {
+        "id": 3,
+        "name":"El cigarrito",
+        "artist": "Victor Jara",
+        "album": "La chiquichuchi"
+    },
+    {
+        "id": 4,
+        "name":"Ifiugarabiguimi",
+        "artist": "Dua Lipa",
+        "album": "Best of Dua Lipa"
+    },
+    {
+        "id": 5,
+        "name":"Murio la Flor",
+        "artist": "Los Angeles Negros",
+        "album": "Very best"
+    },
+    {
+        "id": 6,
+        "name":"Into the Night",
+        "artist": "Funated",
+        "album": "Funation"
+    },
+    {
+        "id": 7,
+        "name":"Se me acabo la inspiracion",
+        "artist": "8966",
+        "album": "Termosfera"
+    }
+]
